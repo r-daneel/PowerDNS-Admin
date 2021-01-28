@@ -236,7 +236,7 @@ def pretty_domain_name(value):
         else:
             return value
     else:
-        raise Exception("Require the Punycode in sring format")
+        raise Exception("Require the Punycode in string format")
 
 
 class customBoxes:
